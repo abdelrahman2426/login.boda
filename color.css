@@ -1,0 +1,51 @@
+ body{
+   background-image: linear-gradient(black,blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ *{
+   margin: 0;
+   padding: 0;
+ }
+ form{
+background: rgb(0, 0, 255);
+padding: 10px;
+width: 80%;
+display: flex;
+flex-wrap: wrap;
+gap: 5px;
+ margin: auto;
+ }
+ form input{
+   background-color:hsla(240, 64%, 27%, 0.516) ;
+   outline: none;
+   border:solid transparent;
+   flex-grow: 1;
+   color: white ;
+   padding: 10px;
+   flex-basis: 300px;
+ }
+ form button{
+   background-color: rgb(17, 28, 149);
+   color: white;
+   flex-basis: 30px;
+   padding:5px 10px;
+   flex-grow: 1;
+}
+form input:hover{
+   border: solid rgba(255, 255, 255, 0.49);
+}
+form input:valid{
+ border: solid green
+}
+h2{
+position: absolute;
+top: 10px;
+color: rgba(255, 255, 255, 0.273);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2:hover{
+   color: white;
+}
